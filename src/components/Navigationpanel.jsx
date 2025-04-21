@@ -1,4 +1,5 @@
 import profilelogo from '../assets/navigation/profile.png'
+import MenuButton from './navigation/Button'
 
 
 const Navigationpanel = () => {
@@ -10,7 +11,7 @@ const Navigationpanel = () => {
               {/* categories button goes here */}
           </div>
           <div class="m-5"> {/* navigation buttons*/}
-            
+            <MenuButton/>
 
           </div>
     
