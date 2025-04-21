@@ -8,6 +8,7 @@ import Holidays from './pages/Holidays'
 import Sports from './pages/Sports'
 import Language from './pages/Language'
 import Currency from './pages/Currency'
+import Cuisine from './pages/Cuisine'
 function App() {
   const [count, setCount] = useState(0)
 
@@ -25,6 +26,7 @@ function App() {
                   <Route path="/geography" element={<Geography />} />
                   <Route path="/holidays" element={<Holidays />} />
                   <Route path="/sports" element={<Sports />} />
+                  <Route path="/cuisine" element={<Cuisine />} />
                   <Route path="/language" element={<Language />} />
                   <Route path="/currency" element={<Currency />} />
                 </Routes>
