@@ -17,9 +17,7 @@ const Home = () => {
                     <p className='font-bold'>Good luck! you can hit next to start</p>
                 </div>
                 <img src={Bg1} class=" w-1/4"  alt="" />
-            </div>
-            
-            
+            </div>          
         </div>
     )
 }
